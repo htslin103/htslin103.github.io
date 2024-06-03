@@ -1,7 +1,140 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-  </body>
-</html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="helen lin, portfolio, full stack dev, c#, html/css, javascript"
+
+        <!--Title-->
+        <title>Helen Lin's Portfolio</title>
+
+        <!--Stylesheets -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/styles.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />          
+    </head>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm fixed-top navbar-custom">
+	<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
+	</button>
+		<a class="navbar-brand navbar-custom" href="index.html"><span>Helen Lin</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav">  
+            <li class="nav-item"><a class="nav-link" href=#aboutMe><span>About Me</span></a></li>
+            <li class="nav-item"><a class="nav-link" href=#proj0><span>DnD Creatures</span></a></li>
+            <li class="nav-item"><a class="nav-link" href=#proj1><span>PHP project</span></a></li>
+            <li class="nav-item"><a class="nav-link" href=#proj2><span>Android App with API</span></a></li>  
+            <li class="nav-item"><a class="nav-link" href=#contact><span>Contact Me</span></a></li>        
+		  </ul>
+        </div>
+    </nav>
+ 
+    <body>
+        <!--Header-->
+        <section class="hero-image">
+        <div class="hero-text">
+            <h1>Welcome to Helen's Website</h1>   
+            <h4> A Junior Software Developer based in Calgary, Alberta </h2>	
+        </div>
+        </section>
+
+        <div class="container body-content">
+            <!--About me-->        
+            <section id="aboutMe" class="section-id">
+            <h1 class="headerText">About Me</h1>
+            <p> I'm a Junior Software Developer currently working at C4i Training and Technology. Prior to that I was a software dev at a local startup called RONEsoft. 
+
+            </br>
+            I'm a graduate from SAIT's Object Oriented Software Development program. 
+            </br>
+            My passion from coding comes from being able to create applications that enhance the lives of the users.</br> </br>
+
+            For my side projects I'm currently learning more about how to work with modern APIs while also working on React for the front end to continue to improve as a full stack developer.
+
+            <div class="row">
+                <div class="column">
+                    <h2>Technical Skills</h2>
+                        <ul style="list-style-type:disc;">
+                            <li>HTML, CSS, C#, PHP, SQL, jQuery, JavaScript</li>
+                            <li>Some Java and Python</li>
+                        </ul>
+                </div>
+
+                <div class="column">            
+                    <h2>Software</h2>
+                        <ul style="list-style-type:disc;">
+                            <li>Visual Studio, Entity Framework, SQL Server Management Studio, Oracle, ASP.Net, Windows Service</li>
+                            <li>Git and Github</li>
+                        </ul>
+                </div>
+            </div>
+ 
+            </p>
+            </section>
+
+            <!--Project Sections-->
+
+            <!--Proj 1 React/NodeJs/MongoDB atlas-->       
+            <section id="proj0" class="project">    
+            <h1 class="headerText">Current Side Project - DnD Creatures - React/NodeJs/MongoDB atlas</h1>              
+                        <p>
+                        My current passion project is a React/NodeJs/MongoDB atlas web app where users can look up DnD creatures
+                        </p>
+                        
+                        <div>
+                            <img src="img/DndCreatures.JPG" class="img-responsive project-image" alt="DND Creatures website">
+                        </div>       
+            </section>
+            <!-- Proj 1 html/css php-->
+            <section id="proj1" class="project">
+            <h1 class="headerText">Project 1 - HTML/CSS and Php</h1>   
+                        <p>
+                        In a team of four, I created a HTML/CSS website with PHP backend.
+                        The website allowed customers to view and book available packages, register as a customer and get in contact with a travel agent.
+                        There was also an administrator log-in to look at customer information and edit their information.
+                        </p>
+                        
+                        <div>
+                            <img src="img/FrontPage1.png" class="img-responsive project-image" alt="A travel website">
+                        </div>       
+                
+                        <div>
+                            <img src="img/CustomerRegistration.png" class="img-responsive project-image" alt="A customer registration form">
+                        </div>   
+            </section>
+            
+            <!--Project 2-->
+            <section id="proj2" class="project">
+                <h1 class="headerText">Project 2 - Java Desktop App, Android App connected using an API</h1>
+                    
+                        <p>
+                        In a team of three, I created a Java Desktop app that allowed travel agents to edit customers information, products and suppliers.
+                        The android application was connected to an API. The API was connected to a database using JSP. The app allowed customers to sign in and look at available packages.
+                        </p>
+
+                        <div>
+                            <img src="img/AndroidDemo.png" class="img-responsive project-image" alt="Phone app onboarding screens">
+                        </div>
+
+                        <div>
+                            <img src="img/AndroidPart2.png" class="img-responsive project-image" alt="User details">
+                        </div>     
+            </section>
+
+            <section id="contact" class="project">
+                <img class="contactMeImg" src="img/ContactMe.jpg" alt="Contact Me Banner"></img>
+                <p> Thanks for visiting! </p>
+                <p> <a href="mailto:htslin103@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a> Htslin103@gmail.com</p>
+                <p> <i class="fas fa-map-marked-alt"></i> Calgary, Alberta, Canada</p>
+                <a href="https://www.linkedin.com/in/helentlin/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                <a href="https://github.com/htslin103" class="fab fa-github" aria-label="GitHub" target="_blank"></a>              
+            </section>
+            </div>
+        </div>
+</body>
