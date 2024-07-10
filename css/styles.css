@@ -1,13 +1,12 @@
 /* The hero image */
 .hero-image {
-
   background-image: url("../img/HeroImage.jpg");
 
   /* Set a specific height */
   width: 100vw;
   height: 100vh;
   display: block;
- 
+
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -27,52 +26,52 @@
   padding: 5px;
 }
 
-.contactMeImg { 
-
-	/* Position and center the image to scale nicely on all screens */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	height:60%;
-	width:60%;
+.contactMeImg {
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 60%;
+  width: 60%;
 }
 
 .project-image {
-  height:75%;
-  width:75%;
+  height: 75%;
+  width: 75%;
   object-fit: fill;
 }
- 
-.section-id {
-	padding:60px 0px 80px 0px;
+
+.desc-container {
+  padding-top: 100px;
 }
 
 .project {
-  padding:60px 0px 100px 0px;
+  padding: 60px 0px 100px 0px;
 }
 
-body{
-  font-family: 'Times New Roman', Times, serif;
+body {
+  font-family: "Times New Roman", Times, serif;
 }
 
 .navbar-custom {
-    background-color: black;
+  background-color: black;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: White;
+  color: White;
 }
 
 .navbar-custom .navbar-nav > li > a {
-    color: white;
+  color: white;
 }
 
-span:hover{
-    color:#a7a7a7 ;
+span:hover {
+  color: #a7a7a7;
 }
 
-#contact{
-	text-align:center;
+#contact {
+  text-align: center;
+  padding-bottom: 30px;
 }
