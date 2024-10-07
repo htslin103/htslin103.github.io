@@ -1,11 +1,9 @@
 *{
   font-family: Helvetica, Arial, sans-serif;
-  list-style-type:disc;
 }
 /* The hero image */
 .hero-image {
-  /* background-image: url("../img/HeroImage.jpg"); */
-  background: linear-gradient(rgba(73, 73, 73, 0.5), rgba(47, 47, 47, 0.5)),url("../img/HeroImage.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(63, 63, 63, 0.5)),url("../img/HeroImage.jpg");
   /* Set a specific height */
   width: 100vw;
   height: 100vh;
@@ -75,15 +73,18 @@ body {
 
 .navbar-custom {
   background-color: black;
+
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
   color: White;
+
 }
 
 .navbar-custom .navbar-nav > li > a {
   color: white;
+  list-style-type: none;
 }
 
 span:hover {
