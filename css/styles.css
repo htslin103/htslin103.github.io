@@ -87,11 +87,15 @@ body {
   list-style-type: none;
 }
 
-span:hover {
-  color: #a7a7a7;
+span:hover, a:hover {
+  color: #6f6f6f;
 }
 
 #contact {
   text-align: center;
   padding-bottom: 30px;
+}
+
+a{
+  color:white;
 }

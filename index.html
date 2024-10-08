@@ -14,22 +14,31 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="css/styles.css"> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />          
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />       
+        <link rel="stylesheet" href="css/styles.css">    
     </head>
 
     <!--Navbar-->
     <nav class="navbar navbar-expand-sm fixed-top navbar-custom">
 	<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon "></span>
+    <span class="navbar-toggler-icon"></span>
 	</button>
 		<a class="navbar-brand navbar-custom" href="index.html"><span>Helen Lin</a>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav navbar-nav ml-md-auto">  
             <li class="nav-item"><a class="nav-link" href=#aboutMe><span>About Me</span></a></li>
-            <li class="nav-item"><a class="nav-link" href=#proj0><span>DnD Creatures</span></a></li>
-            <li class="nav-item"><a class="nav-link" href=#proj1><span>PHP project</span></a></li>
-            <li class="nav-item"><a class="nav-link" href=#proj2><span>Android App with API</span></a></li>  
+            <li class="nav-item">
+            <div class="nav-item dropdown">
+                <a class="btn navbar-custom navbar-nav dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Projects
+                </a>            
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#proj0">DnD Creatures</a>
+                  <a class="dropdown-item" href="#proj1">PHP project</a>
+                  <a class="dropdown-item" href="#proj2">Android App with API</a>
+                </div>
+              </div>
+            </li>
             <li class="nav-item"><a class="nav-link" href=#contact><span>Contact Me</span></a></li>        
 		  </ul>
         </div>
@@ -72,15 +81,15 @@
                 <div class="col-sm">            
                     <h3>Software</h3>
                         <ul>
-                            <li>Visual Studio, Entity Framework, SQL Server Management Studio, Oracle, ASP.Net, Windows Service</li>
+                            <li>Visual Studio, Entity Framework, SSMS, ASP.Net, Windows Service</li>
                             <li>Git and Github</li>
                         </ul>
                 </div>
                 <div class="col-sm">
-                    <h3>Frameworks</h3>             
+                    <h3>Frameworks and Databases</h3>             
                         <ul>
-                            <li>C#, HTML/CSS, SQL, JavaScript</li>
-                            <li>Some PHP, Java and Python</li>
+                            <li>React, ExpressJS, NodeJS</li>
+                            <li>SQL server, MongoDB</li>
                         </ul>
                 </div>
             </div>
