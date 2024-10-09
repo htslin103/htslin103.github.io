@@ -4,9 +4,9 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="helen lin, portfolio, full stack dev, c#, html/css, javascript"
+        <meta name="keywords" content="helen lin, portfolio, full stack dev, c#, html/css, javascript"/>
 
-        <!--Title-->
+      
         <title>Helen Lin's Portfolio</title>
 
         <!--Stylesheets -->
@@ -20,16 +20,16 @@
 
     <!--Navbar-->
     <nav class="navbar navbar-expand-sm fixed-top navbar-custom">
+        <a class="navbar-brand navbar-custom" href="index.html"><span>Helen Lin</a>
 	<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-	</button>
-		<a class="navbar-brand navbar-custom" href="index.html"><span>Helen Lin</a>
+	</button>	
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav navbar-nav ml-md-auto">  
             <li class="nav-item"><a class="nav-link" href=#aboutMe><span>About Me</span></a></li>
             <li class="nav-item">
             <div class="nav-item dropdown">
-                <a class="btn navbar-custom navbar-nav dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="navbar-custom navbar-nav dropdown-toggle navbar-text" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Projects
                 </a>            
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -59,40 +59,40 @@
         <div class="container body-content">
             <!--About me-->        
             <section id="aboutMe" class="desc-container">
-            <h1 class="headerText">About Me</h1>
-            <ul>
-                <li>I'm a Software Developer currently looking for work in the web application field. 
-                    Prior to that I was a junior software developer at C4i training in technology where I worked with WPF applications. </li>
-                <li> I'm a graduate from SAIT's Object Oriented Software Development program. </li>
-                <li>   My passion from coding comes from being able to create applications that enhance the lives of the users.</li>
-                <li>        For my side projects I'm currently learning more about how to enhance the UI to make web applications look more modern and aesthetic while also working on my backend skills.
-            </ul>
-            <h2 class="program-lang">Technical Skills</h2>
-            <div class="row">
-                <div class="col-sm">  
-                    <h3>Languages</h3>                
-                        <ul>
-                            <li>C#, HTML/CSS, SQL, JavaScript</li>
-                            <li>Some PHP, Java and Python</li>
-                        </ul>
-                </div>
-              
+                <h1 class="headerText">About Me</h1>
+                <ul>
+                    <li>I'm a Software Developer currently looking for work in the web application field. 
+                        Prior to that I was a junior software developer at C4i training in technology where I worked with WPF applications. </li>
+                    <li> I'm a graduate from SAIT's Object Oriented Software Development program. </li>
+                    <li>   My passion from coding comes from being able to create applications that enhance the lives of the users.</li>
+                    <li>        For my side projects I'm currently learning more about how to enhance the UI to make web applications look more modern and aesthetic while also working on my backend skills.
+                </ul>
+                <h2 class="program-lang">Technical Skills</h2>
+                <div class="row">
+                    <div class="col-sm">  
+                        <h3>Languages</h3>                
+                            <ul>
+                                <li>C#, HTML/CSS, SQL, JavaScript</li>
+                                <li>Some PHP, Java and Python</li>
+                            </ul>
+                    </div>
+                
 
-                <div class="col-sm">            
-                    <h3>Software</h3>
-                        <ul>
-                            <li>Visual Studio, Entity Framework, SSMS, ASP.Net, Windows Service</li>
-                            <li>Git and Github</li>
-                        </ul>
+                    <div class="col-sm">            
+                        <h3>Software</h3>
+                            <ul>
+                                <li>Visual Studio, Entity Framework, SSMS, ASP.Net, Windows Service</li>
+                                <li>Git and Github</li>
+                            </ul>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Frameworks and Databases</h3>             
+                            <ul>
+                                <li>React, ExpressJS, NodeJS</li>
+                                <li>SQL server, MongoDB</li>
+                            </ul>
+                    </div>
                 </div>
-                <div class="col-sm">
-                    <h3>Frameworks and Databases</h3>             
-                        <ul>
-                            <li>React, ExpressJS, NodeJS</li>
-                            <li>SQL server, MongoDB</li>
-                        </ul>
-                </div>
-            </div>
             </section>
 
             <!--Project Sections-->
@@ -128,8 +128,7 @@
             
             <!--Project 2-->
             <section id="proj2" class="desc-container">
-                <h1 class="headerText">Project 2 - Java Desktop App, Android App connected using an API</h1>
-                    
+                <h1 class="headerText">Project 2 - Java Desktop App, Android App connected using an API</h1>                
                         <p>
                         In a team of three, I created a Java Desktop app that allowed travel agents to edit customers information, products and suppliers.
                         The android application was connected to an API. The API was connected to a database using JSP. The app allowed customers to sign in and look at available packages.
@@ -146,12 +145,16 @@
 
             <section id="contact" class="desc-container">
                 <img class="contactMeImg" src="img/ContactMe.jpg" alt="Contact Me Banner"></img>
-                <p> Thanks for visiting! </p>
-                <p> <a href="mailto:htslin103@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a> Htslin103@gmail.com</p>
-                <p> <i class="fas fa-map-marked-alt"></i> Calgary, Alberta, Canada</p>
-                <a href="https://www.linkedin.com/in/helentlin/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
-                <a href="https://github.com/htslin103" class="fab fa-github" aria-label="GitHub" target="_blank"></a>              
+                <div id="contactInfo" class="contactInfo">
+                    <p> Thanks for visiting! </p>
+                    <p> <a href="mailto:htslin103@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"> Htslin103@gmail.com</a></p>
+                    <p> <i class="fas fa-map-marked-alt"></i> Calgary, Alberta, Canada</p>
+
+                    <div class="socialMediaIcons">
+                        <a href="https://www.linkedin.com/in/helentlin" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                        <a href="https://github.com/htslin103" class="fab fa-github" aria-label="GitHub" target="_blank"></a> 
+                    </div>
+                </div>             
             </section>
-            </div>
         </div>
 </body>
