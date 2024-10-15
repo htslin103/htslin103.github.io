@@ -57,17 +57,24 @@
         </div>
 
         <div class="container body-content">
-            <!--About me-->        
+            <!--About me-->      
             <section id="aboutMe" class="desc-container">
-                <h1 class="headerText">About Me</h1>
-                <ul>
-                    <li>I'm a Software Developer currently looking for work in the web application field. 
-                        Prior to that I was a junior software developer at C4i training in technology where I worked with WPF applications. </li>
-                    <li> I'm a graduate from SAIT's Object Oriented Software Development program. </li>
-                    <li>   My passion from coding comes from being able to create applications that enhance the lives of the users.</li>
-                    <li>        For my side projects I'm currently learning more about how to enhance the UI to make web applications look more modern and aesthetic while also working on my backend skills.
-                </ul>
-                <h2 class="program-lang">Technical Skills</h2>
+                <h1 class="headerText">About Me</h1>  
+                <div class="profileContainer">
+                    <img class="profileImage">
+            
+                    <ul>
+                        <li>I'm a Software Developer currently looking for work in the web application field. 
+                            Prior to that I was a junior software developer at C4i training in technology where I worked with WPF applications. </li>
+                        <li> I'm a graduate from SAIT's Object Oriented Software Development program. </li>
+                        <li>   My passion from coding comes from being able to create applications that enhance the lives of the users.</li>
+                        <li>        For my side projects I'm currently learning more about how to enhance the UI to make web applications look more modern and aesthetic while also working on my backend skills.
+                    </ul>
+                </div>
+     
+
+                
+                <h1 class="program-lang">Technical Skills</h1>
                 <div class="row">
                     <div class="col-sm">  
                         <h3>Languages</h3>                
@@ -98,56 +105,67 @@
             <!--Project Sections-->
             <!--Proj 1 React/NodeJs/MongoDB atlas-->       
             <section id="proj0" class="desc-container">    
-            <h1 class="headerText">Current Side Project - DnD Creatures - ASP.NET Core, Azure hosted, SQL server</h1>              
-                        <p>
-                        My current passion project is a ASP.NET Core web app where users can look up DnD creatures. I'm taking a Udemy course to better understand how to use html/css to
-						create a more modern layout and feel for this application's front end.
-                        </p>
+            <h1 class="headerText">Current Side Project - DnD Monsters - ASP.NET Core, Azure hosted, SQL server</h1>
+            <div class="projFlex">  
+                <div class="image-container">
+                    <img src="img/DndCreatures1.JPG" class="img-responsive project-image" alt="DND Creatures website">
+                </div>    
+                <div class="text-container"> 
+                    <p>
+                    My current passion project is a ASP.NET Core web app where users can look up DnD monsters. I'm taking a Udemy course to better understand how to use html/css to
+                    create a more modern layout and feel for this application's front end.
+                    </p>
+                        <a class="btn btn-primary" href="https://dndmonsters.azurewebsites.net/" target="_blank">Visit DnD Monsters</a>
+ 
+                </div>
+                       
                         
-                        <div>
-                            <img src="img/DndCreatures1.JPG" class="img-responsive project-image" alt="DND Creatures website">
-                        </div>       
+                        
+            </div> 
             </section>
-            <!-- Proj 1 html/css php-->
+            <!-- Proj 2 html/css php-->
             <section id="proj1" class="desc-container">
             <h1 class="headerText">Project 1 - HTML/CSS and Php</h1>   
-                        <p>
-                        In a team of four, I created a HTML/CSS website with PHP backend.
-                        The website allowed customers to view and book available packages, register as a customer and get in contact with a travel agent.
-                        There was also an administrator log-in to look at customer information and edit their information.
-                        </p>
-                        
-                        <div>
-                            <img src="img/FrontPage1.png" class="img-responsive project-image" alt="A travel website">
-                        </div>       
-                
-                        <div>
-                            <img src="img/CustomerRegistration.png" class="img-responsive project-image" alt="A customer registration form">
-                        </div>   
+            <div class="projFlex"> 
+            <div class="image-container">
+                <img src="img/FrontPage1.png" class="img-responsive project-image" alt="A travel website">
+            </div>       
+    
+            <!-- <div>
+                <img src="img/CustomerRegistration.png" class="img-responsive project-image" alt="A customer registration form">
+            </div>   </div> -->
+                        <div class="text-container"><p>
+                            In a team of four, I created a HTML/CSS website with PHP backend.
+                            The website allowed customers to view and book available packages, register as a customer and get in contact with a travel agent.
+                            There was also an administrator log-in to look at customer information and edit their information.
+                            </p></div>
+                            </div>
             </section>
             
-            <!--Project 2-->
-            <section id="proj2" class="desc-container">
-                <h1 class="headerText">Project 2 - Java Desktop App, Android App connected using an API</h1>                
-                        <p>
-                        In a team of three, I created a Java Desktop app that allowed travel agents to edit customers information, products and suppliers.
-                        The android application was connected to an API. The API was connected to a database using JSP. The app allowed customers to sign in and look at available packages.
-                        </p>
+            <!--Project 3-->
 
+            <section id="proj2" class="desc-container">
+                <h1 class="headerText">Project 2 - Java Desktop App, Android App connected using an API</h1>       
+                <div class="projFlex"> 
+                      <div class="image-container">
                         <div>
                             <img src="img/AndroidDemo.png" class="img-responsive project-image" alt="Phone app onboarding screens">
                         </div>
-
-                        <div>
-                            <img src="img/AndroidPart2.png" class="img-responsive project-image" alt="User details">
-                        </div>     
+                      </div>
+                        
+                        <div class="text-container">
+                            <p>
+                                In a team of three, I created a Java Desktop app that allowed travel agents to edit customers information, products and suppliers.
+                                The android application was connected to an API. The API was connected to a database using JSP. The app allowed customers to sign in and look at available packages.
+                            </p>
+                        </div>
+                    </div>   
             </section>
 
             <section id="contact" class="desc-container">
-                <img class="contactMeImg" src="img/ContactMe.jpg" alt="Contact Me Banner"></img>
-
+                <h1 class="headerText">Contact Me</h1>           
                 <div id="contactInfo" class="contactInfo">
-                    <p> Thanks for visiting! </p>
+                    <p> Thanks for stopping by! If you have any opportunities or would like to connect, feel free to reach out to me on LinkedIn.</p>
                     <p> <i class="fas fa-map-marked-alt"></i> Calgary, Alberta, Canada</p>
 
                     <div class="socialMediaIcons">
