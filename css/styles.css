@@ -6,17 +6,22 @@
 }
 
 body{
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .headerText{
-  padding: 20px 0px;
   text-align: center;
+  font-size: 1.75rem;
+}
+
+.subHeaderText{
+  text-align: center;
+  font-size: 1.25rem;
+  padding-bottom: 10px;
 }
 /* The hero image */
 .hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(63, 63, 63, 0.5)),url("../img/HeroImage.jpg");
-  /* Set a specific height */
   width: 100%;
   height: 100vh;
   display: block;
@@ -32,7 +37,7 @@ body{
   text-align: center;
   margin: 2rem;
 }
-/* Place text in the middle of the image */
+
 .hero-text-alignment {
   border-radius: 10px;
   text-align: center;
@@ -42,14 +47,13 @@ body{
   transform: translate(-50%, -50%);
   color: rgb(255, 255, 255);
   padding: 20px;
-  
 }
 
+/*Hero image text*/
 .big-font{
   font-size: 4rem;
 }
 .contactMeImg {
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,7 +129,7 @@ body {
 .container.body-content{
   width: 100%; /* Make it take the full width of the viewport */
   max-width: none; /* Remove any max-width that might be restricting it */
-  padding: 0 200px; /* Optional: add some padding for breathing room */
+  padding: 0 175px; /* Optional: add some padding for breathing room */
   margin: 0 auto; /* Center the content if desired */
 }
 
@@ -159,13 +163,20 @@ span:hover, a:hover {
   padding-bottom: 30px;
 }
 
+.contact-container {
+  padding: 20px;
+  border: black solid 1px;
+  margin: 200px 0px;
+  width:100%;
+}
+
 .socialMediaIcons{
   font-size: 2em;
   
 }
 
 p, .navbar-text{
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .fab {
