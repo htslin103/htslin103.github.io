@@ -12,7 +12,7 @@ body{
 }
 
 .body-content{
-  padding: 30px;
+  padding: 25px;
 }
 
 .headerText{
@@ -108,7 +108,7 @@ body{
 
 .profileContainer{
   display:flex;
-  gap:3em;
+  gap:4em;
 }
 
 .profileImage{
