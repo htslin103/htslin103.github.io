@@ -5,10 +5,34 @@
   box-sizing: border-box;
  
 }
+.navbar-custom {
+  background-color: black;
+
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: White;
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .dropdown-toggle:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.navbar-custom .navbar-nav > li > a {
+  color: white;
+  list-style-type: none;
+}
+
+.active {
+  background-color: #717171;
+}
 
 body{
   font-size: 1rem; 
   background-color: rgb(244, 244, 244);
+  font-family: "Times New Roman", Times, sans-serif;
 }
 
 .body-content{
@@ -20,11 +44,18 @@ body{
   font-size: 1.75rem;
 }
 
+.headers{
+  padding-top: 60px;
+  padding-bottom:15px;
+}
+
 .subHeaderText{
   text-align: center;
   font-size: 1.25rem;
   padding-bottom: 10px;
 }
+
+
 /* The hero image */
 .hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(63, 63, 63, 0.5)),url("../img/HeroImage.jpg");
@@ -32,7 +63,6 @@ body{
   height: 100vh;
   display: block;
 
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,15 +98,6 @@ body{
 .big-font{
   font-size: 4rem;
 }
-.contactMeImg {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: auto;
-  width: 60%;
-  margin: 30px auto;
-}
 
 .contactInfo
 {
@@ -104,6 +125,7 @@ body{
 .projFlex{
   display:flex;
   align-items: center;
+  gap: 10px;
 }
 
 .profileContainer{
@@ -120,55 +142,83 @@ body{
   border-radius: 50%;
 }
 
-.flex-container {
-  display: flex;
-  align-items: center; 
-  justify-content: space-between;
-  width: 100%; 
+.image-container {
+  flex-grow: 0;
+  flex-basis: 50%;
 }
 
-.image-container {
-  flex-grow: 0; /* Prevent the image container from growing */
-  flex-basis: 50%; /* Make the image container take 50% of the width */
+.image-container img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
 }
 
 .text-container {
-  flex-grow: 0; /* Prevent the text container from growing */
-  flex-basis: 50%; /* Make the text container take 50% of the width */
-  padding-left: 20px; /* Optional padding to separate the text from the image */
-}
-
-body {
-  font-family: "Times New Roman", Times, sans-serif;
+  flex-grow: 0; 
+  flex-basis: 50%;
+  padding-left: 20px; 
 }
 
 .container.body-content{
-  width: 100%; /* Make it take the full width of the viewport */
-  max-width: none; /* Remove any max-width that might be restricting it */
-  padding: 0 175px; /* Optional: add some padding for breathing room */
-  margin: 0 auto; /* Center the content if desired */
+  width: 100%;
+  max-width: none; 
+  padding: 0 175px;
+  margin: 0 auto;
 }
 
-.navbar-custom {
-  background-color: black;
-
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
 }
 
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-  color: White;
+.slide img {
+width: 100%;
+height: 400px; 
+object-fit: contain; 
 }
 
-.navbar-nav .nav-link:hover, .navbar-nav .dropdown-toggle:hover {
-  color: grey;
-  text-decoration: none;
-}
-
-
-.navbar-custom .navbar-nav > li > a {
+/* Navigation buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  margin-top: -20px;
   color: white;
-  list-style-type: none;
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  font-size: 18px;
+  user-select: none;
 }
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}
+
+/* Dots at the bottom */
+.dots-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
 
 span:hover, a:hover {
   color: #6f6f6f;
@@ -177,13 +227,6 @@ span:hover, a:hover {
 #contact {
   text-align: center;
   padding-bottom: 30px;
-}
-
-.contact-container {
-  padding: 20px;
-  border: black solid 1px;
-  margin: 200px 0px;
-  width:100%;
 }
 
 .socialMediaIcons{
