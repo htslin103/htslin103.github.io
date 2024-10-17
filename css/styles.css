@@ -3,10 +3,16 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+ 
 }
 
 body{
-  font-size: 1rem;
+  font-size: 1rem; 
+  background-color: rgb(244, 244, 244);
+}
+
+.body-content{
+  padding: 30px;
 }
 
 .headerText{
@@ -33,6 +39,15 @@ body{
   position: relative;
   
 }
+
+.scrollTxt{
+    position: absolute;
+    font-size: 1rem;
+    top: 95%;
+    left: 15%;
+    color:white
+}
+
 .program-lang{
   text-align: center;
   margin: 2rem;
@@ -76,18 +91,19 @@ body{
 }
 
 .project-image {
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
 .desc-container {
-  padding: 100px 60px;
-  margin: 40px;
+  margin: 80px;
   width:100%;
+  padding:10px;
 }
 
 .projFlex{
   display:flex;
+  align-items: center;
 }
 
 .profileContainer{
